@@ -6,9 +6,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "buffer": "^5.0.0",
+    "query-string": "^4.2.3",
+    "url": "^0.11.0",
+    "uuid": "^2.0.3"
+  },
   "keywords": [
-    "AzureAD"
+    "AzureAD",
+    "Microsoft Account",
+    "Microsoft Authentication"
   ],
   "author": "maxzitron",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxzitron/react-native-azure-ad-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxzitron/react-native-azure-ad-2/issues"
+  },
+  "homepage": "https://github.com/maxzitron/react-native-azure-ad-2#readme"
 }
