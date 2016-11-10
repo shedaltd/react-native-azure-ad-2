@@ -1,7 +1,14 @@
 # React-native-azure-ad-2
 
+* [Installation](#installation)
+* Usage
+* Components
+    * AzureInstance
+    * AzureLoginView
+    * Auth
+
 ### Installation
-Install package from npm
+Install package from `npm`
 ```sh
 $ npm install -s react-native-azure-ad-2
 ```
