@@ -14,7 +14,7 @@ ___
 
 ### Table of content
 * [Installation](#installation)
-* Usage
+* [Usage](#usage)
 * Components
     * AzureInstance
     * AzureLoginView
