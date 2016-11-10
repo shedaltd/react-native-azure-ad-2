@@ -1,7 +1,7 @@
 # React-native-azure-ad-2
 
 * [Installation](#installation)
-* Usage
+* [Usage](#usage)
 * Components
     * AzureInstance
     * AzureLoginView
