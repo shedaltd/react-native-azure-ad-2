@@ -63,7 +63,7 @@ import React from 'react';
 import {AppRegistry, View} from 'react-native';
 import {AzureInstance, AzureLoginView} from './azure';
 
-// CONSTANCE
+// CONSTANT
 const CREDENTIAILS = {
     client_id: 'xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
     client_secret: 'xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
