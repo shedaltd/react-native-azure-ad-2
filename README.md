@@ -60,7 +60,7 @@ When combine all parts together, it will look like this.
 
 ```javascript
 import React from 'react';
-import { AppRegistry, View } from 'react-native';
+import {AppRegistry, View} from 'react-native';
 import {AzureInstance, AzureLoginView} from './azure';
 
 // CONSTANCE
