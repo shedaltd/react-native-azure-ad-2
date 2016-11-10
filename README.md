@@ -53,7 +53,8 @@ const CREDENTIAILS = {
 export default class azureAuth extends React.Component {
 	constructor(props){
 		super(props);
-		this.azureInstance = new AzureInstance(credentials);
+		
+		this.azureInstance = new AzureInstance(CREDENTIAILS);
 		this._onLoginSuccess = this._onLoginSuccess.bind(this);
 	}
 	
