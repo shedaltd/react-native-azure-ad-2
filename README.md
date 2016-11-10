@@ -1,7 +1,20 @@
 # React-native-azure-ad-2
+Trying to access a Microsoft Accounts is kind of bizarre. Microsoft previously separated their user accounts into two different domains, one for their cloud platform –  Microsoft Azure – and another for general users who are using their services like Hotmail, One Drive or Xbox.
 
+This meant developers had to use different authentication endpoints in order to authenticate users from different services.
+
+:scream: :scream: :scream: :scream:
+
+Thankfully they recently converged their disparate authentication service into a single service called “v2.0 endpoint” which allows you to use OAuth authentication for whichever Microsoft service account you have.
+
+Authenticating a user via the v2 endpoint will give us access to a custom bearer token, this token allows us to consume REST APIs from the Microsoft Graph (a single end point into all Microsoft services) and allows your app to request for simple user data, for example first name, last name, email, and get other information like email messages, contacts and notes associated with their accounts.
+
+This module is developed to help developers to integrated Microsoft V2 endpoint into their React-native app in a painless way.
+___
+
+### Table of content
 * [Installation](#installation)
-* [Usage](#usage)
+* Usage
 * Components
     * AzureInstance
     * AzureLoginView
