@@ -21,10 +21,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxzitron/react-native-azure-ad-2.git"
+    "url": "git+https://github.com/seedtech/react-native-azure-ad-2.git"
   },
   "bugs": {
-    "url": "https://github.com/maxzitron/react-native-azure-ad-2/issues"
+    "url": "https://github.com/seedtech/react-native-azure-ad-2/issues"
   },
-  "homepage": "https://github.com/maxzitron/react-native-azure-ad-2#readme"
+  "homepage": "https://github.com/seedtech/react-native-azure-ad-2#readme"
 }
