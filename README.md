@@ -12,7 +12,7 @@ Authenticating a user via the v2 endpoint will give us access to a custom bearer
 This module is developed to help developers to integrated Microsoft V2 endpoint into their React-native app in a painless way.
 ___
 
-### Table of content
+## Table of content
 * [Installation](#installation)
 * [Usage](#usage)
 * Components
@@ -20,15 +20,13 @@ ___
     * AzureLoginView
     * Auth
 
-### Installation
-================
+## Installation
 Install package from `npm`
 ```sh
 $ npm install -s react-native-azure-ad-2
 ```
 
-### Usage
-=========
+## Usage
 First, import the component
 
 ```javascript
