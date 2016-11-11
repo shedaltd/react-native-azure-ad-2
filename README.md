@@ -21,13 +21,14 @@ ___
     * Auth
 
 ### Installation
+================
 Install package from `npm`
 ```sh
 $ npm install -s react-native-azure-ad-2
 ```
 
 ### Usage
-
+=========
 First, import the component
 
 ```javascript
