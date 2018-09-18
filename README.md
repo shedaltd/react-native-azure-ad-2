@@ -57,6 +57,21 @@ render( ) {
     );
 }
 ```
+If you get an error about invalid token you can set the `excludeSecretFromTokenRequest` prop to `true`.
+
+```javascript
+render( ) {
+    return (
+        <AzureLoginView
+            azureInstance={this.azureInstance}
+            loadingMessage="Requesting access token"
+            onSuccess={this._onLoginSuccess}
+            onCancel={this._onLoginCancel}
+            excludeSecretFromTokenRequest={true}
+        />
+    );
+}
+```
 When combine all parts together, it will look like this.
 
 ```javascript
