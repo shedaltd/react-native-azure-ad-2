@@ -88,13 +88,13 @@ const CREDENTIAILS = {
 };
 
 export default class azureAuth extends React.Component {
-	constructor(props){
-		super(props);
-		
-		this.azureInstance = new AzureInstance(CREDENTIAILS);
+    constructor(props){
+        super(props);
+        
+        this.azureInstance = new AzureInstance(CREDENTIAILS);
         this._onLoginSuccess = this._onLoginSuccess.bind(this);
-		this._onLoginCancel = this._onLoginCancel.bind(this);
-	}
+        this._onLoginCancel = this._onLoginCancel.bind(this);
+    }
     
     _onLoginSuccess(){
         this.azureInstance.getUserInfo().then(result => {
@@ -103,18 +103,18 @@ export default class azureAuth extends React.Component {
             console.log(err);
         })
     }
-	
-	_onLoginCancel(){
-		// Show cancel message
-	}
+    
+    _onLoginCancel(){
+        // Show cancel message
+    }
 
     render() {
         return (
             <AzureLoginView
-            	azureInstance={this.azureInstance}
-            	loadingMessage="Requesting access token"
+                azureInstance={this.azureInstance}
+                loadingMessage="Requesting access token"
                 onSuccess={this._onLoginSuccess}
-            	onCancel={this._onLoginCancel}
+                onCancel={this._onLoginCancel}
             />
         );
     }
