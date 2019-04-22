@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import {AzureInstance, AzureLoginView} from 'react-native-azure-ad-2';
 
 const credentials = {
@@ -11,27 +11,46 @@ const credentials = {
 export default class App extends React.Component {
   constructor(props){
     super(props);
-    
+    this.state = {
+      azureLoginObject: {},
+      loginSuccess: false
+    };
 		this.azureInstance = new AzureInstance(credentials);
 		this._onLoginSuccess = this._onLoginSuccess.bind(this);
 	}
 
 	_onLoginSuccess(){
 		this.azureInstance.getUserInfo().then(result => {
-			console.log(result);
+			this.setState({
+        loginSuccess: true,
+        azureLoginObject: result
+      });
+      console.log(result);
 		}).catch(err => {
 			console.log(err);
 		})
-	}
+  }
+  
 
   render() {
-      return (
-          <AzureLoginView
-            azureInstance={this.azureInstance}
-            loadingMessage="Requesting access token"
-            onSuccess={this._onLoginSuccess}
-          />
-      );
+
+    if (!this.state.loginSuccess) {
+
+      return (<AzureLoginView
+          azureInstance={this.azureInstance}
+          loadingMessage="Requesting access token"
+          onSuccess={this._onLoginSuccess}
+        />)
+    }
+
+    const {userPrincipalName, givenName} = this.state.azureLoginObject;
+    
+    return (
+      <View style={styles.container}>
+				<Text style={styles.text}>Welcome {givenName}</Text> 
+				<Text style={styles.text}>You logged into Azure with {userPrincipalName}</Text> 
+			</View>
+    );
   }
 }
 
@@ -42,4 +61,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  text: {
+		textAlign: 'center',
+		color: '#333333',
+		marginBottom: 5
+	}
 });
