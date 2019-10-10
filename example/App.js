@@ -16,6 +16,8 @@ export default class App extends React.Component {
       loginSuccess: false
     };
 		this.azureInstance = new AzureInstance(credentials);
+	  	this.azureInstance.redirect_uri = 'YOUR REDIRECT ADDRESS HERE';
+    		this.azureInstance.authority = 'https://login.microsoftonline.com/YOUR-TENANT-ID-HERE';
 		this._onLoginSuccess = this._onLoginSuccess.bind(this);
 	}
 
