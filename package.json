@@ -8,24 +8,33 @@
   },
   "dependencies": {
     "buffer": "^6.0.3",
-    "query-string": "^7.0.1",
+    "react-native-get-random-values": "^1.7.0",
     "react-native-webview": "^11.13.0",
     "url": "^0.11.0",
     "uuid": "^8.3.2"
   },
+  "peerDependencies": {
+    "react-native-get-random-values": "^1.7.0",
+    "react-native": "^0.60"
+  },
   "keywords": [
     "AzureAD",
     "Microsoft Account",
-    "Microsoft Authentication"
+    "Microsoft Authentication",
+    "React Native Authentication"
   ],
-  "author": "maxzitron",
+  "author": "Sheda Studios <hello@shedaltd> (www.sheda.ltd)",
+  "contributors": [
+    "maxzitron",
+    "mebinum"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seedtech/react-native-azure-ad-2.git"
+    "url": "git+https://github.com/shedaltd/react-native-azure-ad-2.git"
   },
   "bugs": {
-    "url": "https://github.com/seedtech/react-native-azure-ad-2/issues"
+    "url": "https://github.com/shedaltd/react-native-azure-ad-2/issues"
   },
-  "homepage": "https://github.com/seedtech/react-native-azure-ad-2#readme"
+  "homepage": "https://github.com/shedaltd/react-native-azure-ad-2#readme"
 }

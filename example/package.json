@@ -12,6 +12,7 @@
     "expo": "^42.0.0",
     "react": "17.0.2",
     "react-native": "0.65.1",
-    "react-native-azure-ad-2": "^1.0.5"
+    "react-native-azure-ad-2": "^1.0.5",
+    "react-navigation": "^4.4.4"
   }
 }

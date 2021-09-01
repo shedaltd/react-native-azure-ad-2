@@ -1,0 +1,6 @@
+*.map
+*.spec.*
+SetupPackage.*
+version.txt
+example/
+example2/
