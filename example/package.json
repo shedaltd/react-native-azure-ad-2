@@ -1,18 +1,29 @@
 {
-  "name": "react-native-auzure-ad-2-example",
-  "main": "node_modules/expo/AppEntry.js",
-  "private": true,
+  "main": "index.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "eject": "expo eject"
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "react-native start"
   },
   "dependencies": {
-    "expo": "^42.0.0",
-    "react": "17.0.2",
-    "react-native": "0.65.1",
-    "react-native-azure-ad-2": "^1.0.5",
-    "react-navigation": "^4.4.4"
-  }
+    "expo": "~42.0.1",
+    "expo-splash-screen": "~0.11.2",
+    "expo-status-bar": "~1.0.4",
+    "expo-updates": "~0.8.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "~0.63.4",
+    "react-native-azure-ad-2": "file:../",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-get-random-values": "^1.7.0",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-unimodules": "0.14.10",
+    "react-native-web": "^0.17.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0"
+  },
+  "private": true
 }
