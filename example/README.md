@@ -8,6 +8,12 @@ To start you first have to install dependencies
   yarn install
 ```
 
+Create an `.env` file, using the `.env.example` as a template. File should contain.
+
+```markdown
+CLIENT_SECRET_KEY="CLIENT SECRET KEY"
+```
+
 ## Start the development server
 
 ```bash
@@ -25,19 +31,3 @@ To run on iOS you will need to run
 ```
 
 and follow the instruction in your terminal
-
-## Issues
-
-if you get an error similar to the one below
-
-``` bash
-Invariant Violation: requireNativeComponent: "RNCSafeAreaProvider" was not found in the UIManager 
-```
-
-run
-
-```bash
-    npx pod-install ios
-```
-
-You might have clear the data in your simulator i.e. `Devices > Erase All Content and Settings` and try again.

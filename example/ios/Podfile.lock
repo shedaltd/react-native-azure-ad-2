@@ -335,16 +335,16 @@ PODS:
 DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - EXApplication (from `../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example/node_modules/expo-application/ios`)
-  - EXConstants (from `../node_modules/react-native-azure-ad-2/example/node_modules/expo-constants/ios`)
+  - EXConstants (from `../node_modules/react-native-azure-ad-2/example/node_modules/react-native-azure-ad-2/example/node_modules/expo-constants/ios`)
   - EXErrorRecovery (from `../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example/node_modules/expo-error-recovery/ios`)
   - EXFileSystem (from `../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example/node_modules/expo-file-system/ios`)
   - EXFont (from `../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example/node_modules/expo-font/ios`)
   - EXImageLoader (from `../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/expo-image-loader/ios`)
   - EXKeepAwake (from `../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example/node_modules/expo-keep-awake/ios`)
   - ExpoModulesCore (from `../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example/node_modules/expo-modules-core/ios`)
-  - EXSplashScreen (from `../node_modules/react-native-azure-ad-2/example/node_modules/expo-splash-screen/ios`)
+  - EXSplashScreen (from `../node_modules/react-native-azure-ad-2/example/node_modules/react-native-azure-ad-2/example/node_modules/expo-splash-screen/ios`)
   - EXStructuredHeaders (from `../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/expo-structured-headers/ios`)
-  - EXUpdates (from `../node_modules/react-native-azure-ad-2/example/node_modules/expo-updates/ios`)
+  - EXUpdates (from `../node_modules/react-native-azure-ad-2/example/node_modules/react-native-azure-ad-2/example/node_modules/expo-updates/ios`)
   - EXUpdatesInterface (from `../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/expo-updates-interface/ios`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
@@ -378,8 +378,8 @@ DEPENDENCIES:
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - UMAppLoader (from `../node_modules/unimodules-app-loader/ios`)
-  - "UMCore (from `../node_modules/react-native-azure-ad-2/example/node_modules/@unimodules/core/ios`)"
-  - "UMReactNativeAdapter (from `../node_modules/react-native-azure-ad-2/example/node_modules/@unimodules/react-native-adapter/ios`)"
+  - "UMCore (from `../node_modules/react-native-azure-ad-2/example/node_modules/react-native-azure-ad-2/example/node_modules/@unimodules/core/ios`)"
+  - "UMReactNativeAdapter (from `../node_modules/react-native-azure-ad-2/example/node_modules/react-native-azure-ad-2/example/node_modules/@unimodules/react-native-adapter/ios`)"
   - UMTaskManagerInterface (from `../node_modules/unimodules-task-manager-interface/ios`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -393,7 +393,7 @@ EXTERNAL SOURCES:
   EXApplication:
     :path: "../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example/node_modules/expo-application/ios"
   EXConstants:
-    :path: "../node_modules/react-native-azure-ad-2/example/node_modules/expo-constants/ios"
+    :path: "../node_modules/react-native-azure-ad-2/example/node_modules/react-native-azure-ad-2/example/node_modules/expo-constants/ios"
   EXErrorRecovery:
     :path: "../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example/node_modules/expo-error-recovery/ios"
   EXFileSystem:
@@ -407,11 +407,11 @@ EXTERNAL SOURCES:
   ExpoModulesCore:
     :path: "../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example/node_modules/expo-modules-core/ios"
   EXSplashScreen:
-    :path: "../node_modules/react-native-azure-ad-2/example/node_modules/expo-splash-screen/ios"
+    :path: "../node_modules/react-native-azure-ad-2/example/node_modules/react-native-azure-ad-2/example/node_modules/expo-splash-screen/ios"
   EXStructuredHeaders:
     :path: "../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/expo-structured-headers/ios"
   EXUpdates:
-    :path: "../node_modules/react-native-azure-ad-2/example/node_modules/expo-updates/ios"
+    :path: "../node_modules/react-native-azure-ad-2/example/node_modules/react-native-azure-ad-2/example/node_modules/expo-updates/ios"
   EXUpdatesInterface:
     :path: "../node_modules/react-native-azure-ad-2/example2/node_modules/react-native-azure-ad-2/example2/node_modules/expo-updates-interface/ios"
   FBLazyVector:
@@ -475,9 +475,9 @@ EXTERNAL SOURCES:
   UMAppLoader:
     :path: "../node_modules/unimodules-app-loader/ios"
   UMCore:
-    :path: "../node_modules/react-native-azure-ad-2/example/node_modules/@unimodules/core/ios"
+    :path: "../node_modules/react-native-azure-ad-2/example/node_modules/react-native-azure-ad-2/example/node_modules/@unimodules/core/ios"
   UMReactNativeAdapter:
-    :path: "../node_modules/react-native-azure-ad-2/example/node_modules/@unimodules/react-native-adapter/ios"
+    :path: "../node_modules/react-native-azure-ad-2/example/node_modules/react-native-azure-ad-2/example/node_modules/@unimodules/react-native-adapter/ios"
   UMTaskManagerInterface:
     :path: "../node_modules/unimodules-task-manager-interface/ios"
   Yoga:

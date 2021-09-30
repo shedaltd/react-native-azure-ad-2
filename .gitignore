@@ -40,6 +40,8 @@ jspm_packages
 .DS_Store
 */.DS_Store
 
+.env
+
 # OSX
 #
 .DS_Store

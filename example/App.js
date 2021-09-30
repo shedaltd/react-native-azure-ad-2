@@ -1,5 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
+import { CLIENT_SECRET_KEY } from "@env";
 import { StyleSheet, Text, View, Button, Alert } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -32,7 +33,7 @@ const SignInScreen = ({ navigation }) => {
   const [azureLoginObject, setAzureLoginObject] = useState({});
   const credentials = {
     client_id: "cbfd2433-6712-4e6a-9f77-38b8696fcf34",
-    client_secret: "L11-xHe_0-1is9pwnQ2be__1P0kr.ibP4Y",
+    client_secret: CLIENT_SECRET_KEY,
     redirect_uri: "http://localhost:3000",
     scope:
       "User.ReadBasic.All User.Read.All User.ReadWrite.All Mail.Read offline_access",
