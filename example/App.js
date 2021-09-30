@@ -7,17 +7,18 @@ import { AzureInstance, AzureLoginView } from "react-native-azure-ad-2";
 import RCTNetworking from "react-native/Libraries/Network/RCTNetworking";
 
 const { Navigator, Screen } = createNativeStackNavigator();
+const buttonColour = Platform.OS === "ios" ? "#fff" : "#007AFF";
 
 const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Get ready to login to Azure</Text>
       <View style={styles.button}>
         <Button
           onPress={() => navigation.navigate("SignIn")}
           title="Sign In"
           style={styles.title}
-          color="#fff"
+          color={buttonColour}
           accessibilityLabel="Learn more about this purple button"
         />
       </View>
@@ -90,7 +91,7 @@ const SignInScreen = ({ navigation }) => {
           onPress={signOut}
           title="Sign Out"
           style={styles.title}
-          color="#fff"
+          color={buttonColour}
           accessibilityLabel="Sign Out of Azure"
         />
       </View>
