@@ -7,6 +7,8 @@
     "start": "react-native start"
   },
   "dependencies": {
+    "@react-navigation/native": "^6.0.4",
+    "@react-navigation/native-stack": "^6.2.2",
     "expo": "~42.0.1",
     "expo-splash-screen": "~0.11.2",
     "expo-status-bar": "~1.0.4",
@@ -18,6 +20,7 @@
     "react-native-gesture-handler": "~1.10.2",
     "react-native-get-random-values": "^1.7.0",
     "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.2.0",
     "react-native-screens": "~3.4.0",
     "react-native-unimodules": "0.14.10",
     "react-native-web": "^0.17.5"

@@ -8,6 +8,14 @@ To start you first have to install dependencies
   yarn install
 ```
 
+## Start the development server
+
+```bash
+expo start
+```
+
+Then follow instructions to run the project on iOS
+
 ## iOS
 
 To run on iOS you will need to run
