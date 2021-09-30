@@ -13,25 +13,23 @@ This module is developed to help developers to integrated Microsoft V2 endpoint 
 ___
 
 ## Table of content
-* [Installation](#installation)
-* [Usage](#usage)
-* Components
-    * AzureInstance
-    * AzureLoginView
-    * Auth
-* [Example](#example)
+- [React-native-azure-ad-2](#react-native-azure-ad-2)
+  - [Table of content](#table-of-content)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Example](#example)
 
 ## Installation
 Install package from `npm`
 ```sh
-$ npm install -s react-native-azure-ad-2
+$ npm install -s @shedaltd/react-native-azure-ad-2
 ```
 
 ## Usage
 First, import the component
 
 ```javascript
-import {AzureInstance, AzureLoginView} from 'react-native-azure-ad-2'
+import {AzureInstance, AzureLoginView} from '@shedaltd/react-native-azure-ad-2'
 ```
 Then create an AzureInstance by using Microsoft application credential that we have registered.  Also, adding application scope in order to ask users to consent when they login. For more information about scope see [Microsoft blog](https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-scopes/).
 ```javascript

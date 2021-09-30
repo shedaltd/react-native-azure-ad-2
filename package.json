@@ -1,6 +1,6 @@
 {
   "name": "@shedaltd/react-native-azure-ad-2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A React Native module for Azure AD enpoint version 2. This module implement Azure AD authentication using pure React-Native with no others lib. require",
   "main": "lib/index.js",
   "scripts": {
